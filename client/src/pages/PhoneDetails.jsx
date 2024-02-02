@@ -31,7 +31,7 @@ const PhoneDetails = () => {
     <div className="container w-[30rem] mx-auto text-center">
       {!loading ? (
         <div className="flex flex-col items-center justify-around h-[50rem]">
-          <Button onClick={() => navigate("/")}>Back</Button>
+          <Button color="blue" onClick={() => navigate("/")}>Back</Button>
           <h2>{selectedPhone.name}</h2>
           <img
             className="h-96"

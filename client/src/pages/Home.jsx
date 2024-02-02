@@ -48,7 +48,7 @@ const Home = () => {
                 <p className="font-normal text-gray-700 dark:text-gray-400">
                   ${phone.price}
                 </p>
-                <Button onClick={() => navigate(`/phones/${phone.id}`)}>
+                <Button color="blue" onClick={() => navigate(`/phones/${phone.id}`)}>
                   Details
                   <svg
                     className="-mr-1 ml-2 h-4 w-4"
